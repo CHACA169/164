@@ -1,0 +1,55 @@
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes de la Naturaleza</title>
+    <style><!DOCTYPE html>
+<html lang="es">
+<head>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Imágenes de la Naturaleza</h1>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a capturar la belleza de la naturaleza a través de imágenes impresionantes. Nuestro objetivo es inspirar y conectar a las personas con el mundo natural.</p>
+        </section>
+        <section>
+            <h2>Galería</h2>
+            <div class="gallery">
+                <img src="imagen1.jpg" alt="Imagen de un bosque">
+                <img src="imagen2.jpg" alt="Imagen de una montaña">
+                <img src="imagen3.jpg" alt="Imagen de un río">
+                <img src="imagen4.jpg" alt="Imagen de un atardecer">
+            </div>
+        </section>
+    </div>
+</body>
+</html>

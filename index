@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>titulode empresa</title>
+</head>
+<body>
+	<header align="center">
+	<nav class="navegacion">
+		<li><a href="index.html">inicio</a></li>
+		<li><a href=""<proyectos</a>
+				<ul class="submenu">
+					<li><a href="proyecto1.html">proyecto 1 >/a></ii>
+								<li><a href=" proyrcto2.html">proyecto 2 </a></1i>
+								<li><ahref="proyecto3.html">proyecto 3 </a></li>
+								<li><a href="proyecto 4.html">proyecto 4 </a></li>
+								<li><a href="proyecto5.html">proyecto 5 </a></li>
+								<li><a href="proyecto6.html">proyecto 6 </a></li>
+
+							</ul></li>
+						

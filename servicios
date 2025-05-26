@@ -1,0 +1,67 @@
+servicios
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Plantas Medicinales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header, footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .producto {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px;
+            background-color: #fff;
+        }
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a nuestra Tienda de Plantas Medicinales</h1>
+        <p>Descubre el poder de la naturaleza</p>
+    </header>
+    <main>
+        <section class="productos">
+            <div class="producto">
+                <h2>Manzanilla</h2>
+                <p>Perfecta para calmar el estrés y mejorar la digestión.</p>
+               img src="https://www.bing.com/images/search?view=detailV2&ccid=QACZzcsp&id=295A18155B03C18C431DCB984C939F060A5C5624&thid=OIP.QACZzcsptRJAmcyPvd4wvgHaE8&mediaurl=https%3a%2f%2fhuerto-en-casa.com%2fwp-content%2fuploads%2f2021%2f03%2fFlor-de-manzanilla-1.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.400099cdcb29b5124099cc8fbdde30be%3frik%3dJFZcCgafk0yYyw%26pid%3dImgRaw%26r%3d0&exph=855&expw=1280&q=flor+de+manzanilla+&simid=608031339962961277&FORM=IRPRST&ck=8994869988452D134A8B09C372B2A6C5&selectedIndex=1&itb=0"
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <h2>Menta</h2>
+                <p>Ideal para aliviar dolores de cabeza y refrescar el aliento.</p>
+               <img src="https://www.bing.com/images/search?view=detailV2&ccid=I6s9B2gO&id=A8FAA61E8DE4A27DC2D852CDC16979B16162FFD1&thid=OIP.I6s9B2gOUTn2PJSLuiyQigAAAA&mediaurl=https%3a%2f%2fwww.lavanguardia.com%2ffiles%2fog_thumbnail%2fuploads%2f2022%2f05%2f16%2f62825d7bbb3e4.jpeg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.23ab3d07680e5139f63c948bba2c908a%3frik%3d0f9iYbF5acHNUg%26pid%3dImgRaw%26r%3d0&exph=266&expw=474&q=lanta+menta&simid=607999810582363379&FORM=IRPRST&ck=BFC9D0B9D42025CB504C1CACA182BA87&selectedIndex=51&itb=0"
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <h2>Lavanda</h2>
+                <p>Con propiedades relajantes para el sueño y la piel.</p>
+               img src="https://th.bing.com/th/id/OIP.0pU2E8p5aI38_vWRdE4SFQHaE9?rs=1&pid=ImgDetMain" 
+                <button>Comprar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Tienda de Plantas Medicinales. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
